@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Header from './header.svelte'
-	import Footer from './footer.svelte'
-	import Transitions from './transitions.svelte'
+	import Header from '$lib/components/navigation/header.svelte'
+	import Footer from '$lib/components/navigation/footer.svelte'
+	import Transitions from '$lib/components/navigation/transitions.svelte'
 
 	import 'open-props/style'
 	import 'open-props/normalize'
@@ -25,7 +25,7 @@
 <style>
 	.layout {
 		height: 100%;
-		max-inline-size: 1440px;
+		max-inline-size: 1140px;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		margin-inline: auto;
